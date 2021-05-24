@@ -58,7 +58,7 @@ public class Book {
         return "Book[" +
                 "isbn='" + isbn + '\'' +
                 ", name='" + name + '\'' +
-                ", author=" + author.toString() +
+                "," + author.toString() +
                 ", price=" + price +
                 ", quantity=" + quantity +
                 ']';
